@@ -1,0 +1,21 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "cSpell.language": "fr",
+    "cSpell.dictionaries": [
+        "fr",
+        "en"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": false,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.createEnvironment.trigger": "off"
+}
