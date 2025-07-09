@@ -1,24 +1,18 @@
-# en tete de script / module docstring / docstring de module
+"""
+__author__ = Jean Cavalcante
+__date__ = 05/07/2025
 
+Description:
+    - Ce script contient deux fonctions pour charger des images
+    d'un dossier spécifique dans Blender et les dispose
+    soit en arc de cercle soit en grille.
 
-# ===========================================
-# Script Name: duplicate.py
-# Author: Jean Cavalcante
-# Date: 29/06/2025
-# Maya Version: 2022+
-# Python Version: 3.x
-#
-# Description:
-#     Ce script duplique un objet sélectionné dans Maya,
-#     applique un décalage en x et z pour chaque copie,
-#     et crée une animation de type "pulse" sur le scale de l'objet.
-#
-# Instructions:
-#     - Sélectionner un objet dans la scène.
-#     - Lancer le script dans l’éditeur de script Python de Maya.
-#
-# Dependencies:
-#     - Maya.cmds
-#     - random
-#
-# ===========================================
+Instructions:
+    - Fournir le chemin du dossier contenant les images à charger dans Blender
+    - Exécuter une des deux fonctions.
+
+Dependencies:
+    - os
+    - math
+    - Vector from mathutils 
+"""
